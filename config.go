@@ -19,6 +19,8 @@ type option func(*configuration)
 type configuration struct {
 	DialTimeout     time.Duration
 	Filter          Filter
+	ProxyAddress    string
+	ProxyAuth       string
 	DialAddress     string
 	Dialer          Dialer
 	LogConnections  bool
@@ -41,6 +43,12 @@ func (singleton) ClientConnector(value clientConnector) option {
 }
 func (singleton) DialAddress(value string) option {
 	return func(this *configuration) { this.DialAddress = value }
+}
+func (singleton) ProxyAddress(value string) option {
+	return func(this *configuration) { this.ProxyAddress = value }
+}
+func (singleton) ProxyAuth(value string) option {
+	return func(this *configuration) { this.ProxyAuth = value }
 }
 func (singleton) Dialer(value Dialer) option {
 	return func(this *configuration) { this.Dialer = value }
