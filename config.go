@@ -71,7 +71,7 @@ func (singleton) apply(options ...option) option {
 		}
 
 		if this.Dialer == nil {
-			this.Dialer = newDialer(this)
+			this.Dialer = NewConnectDialer(this)
 		}
 
 		this.Dialer = newRoutingDialer(this)
