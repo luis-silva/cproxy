@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/smartystreets/cproxy.svg?branch=master)](https://travis-ci.org/smartystreets/cproxy)
-[![Code Coverage](https://codecov.io/gh/smartystreets/cproxy/branch/master/graph/badge.svg)](https://codecov.io/gh/smartystreets/cproxy)
-[![Go Report Card](https://goreportcard.com/badge/github.com/smartystreets/cproxy)](https://goreportcard.com/report/github.com/smartystreets/cproxy)
-[![GoDoc](https://godoc.org/github.com/smartystreets/cproxy?status.svg)](http://godoc.org/github.com/smartystreets/cproxy)
+[![Build Status](https://travis-ci.org/luis-silva/cproxy.svg?branch=master)](https://travis-ci.org/luis-silva/cproxy)
+[![Code Coverage](https://codecov.io/gh/luis-silva/cproxy/branch/master/graph/badge.svg)](https://codecov.io/gh/luis-silva/cproxy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/luis-silva/cproxy)](https://goreportcard.com/report/github.com/luis-silva/cproxy)
+[![GoDoc](https://godoc.org/github.com/luis-silva/cproxy?status.svg)](http://godoc.org/github.com/luis-silva/cproxy)
 
 Purpose
 -----------------------

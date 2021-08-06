@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/smartystreets/cproxy/v2"
+	"github.com/luis-silva/cproxy/v2"
 )
 
 func main() {
